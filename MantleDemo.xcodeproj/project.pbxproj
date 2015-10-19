@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A845E6E249B9029A8B02DDD8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D37FD73B99EBFB0080E3239 /* libPods.a */; };
+		BE0494FA1BD15CCB00508389 /* TGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0494F91BD15CCB00508389 /* TGViewController.m */; };
+		BE0494FF1BD1644500508389 /* GHIssueMantle.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0494FC1BD1644500508389 /* GHIssueMantle.m */; };
+		BE04953A1BD168BD00508389 /* MantleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0495391BD168BD00508389 /* MantleViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BE833B381BD55198004E2300 /* GHUserMantle.m in Sources */ = {isa = PBXBuildFile; fileRef = BE833B371BD55198004E2300 /* GHUserMantle.m */; settings = {ASSET_TAGS = (); }; };
+		BEC2842C1BCACB6900F54031 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC2842B1BCACB6900F54031 /* main.m */; };
+		BEC2842F1BCACB6900F54031 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC2842E1BCACB6900F54031 /* AppDelegate.m */; };
+		BEC284371BCACB6900F54031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC284361BCACB6900F54031 /* Assets.xcassets */; };
+		BEC2843A1BCACB6900F54031 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC284381BCACB6900F54031 /* LaunchScreen.storyboard */; };
+		BECC32801BCFFFA5008C915D /* GHUser.m in Sources */ = {isa = PBXBuildFile; fileRef = BECC327F1BCFFFA5008C915D /* GHUser.m */; };
+		BEDCBF1B1BCAD9EF00AEC88A /* GHIssue.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDCBF1A1BCAD9EF00AEC88A /* GHIssue.m */; };
+		BEDCBF1E1BCAD9F900AEC88A /* NoMantleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDCBF1D1BCAD9F900AEC88A /* NoMantleViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D37FD73B99EBFB0080E3239 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B34AB8597ECF562ACF6D90B6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BE0494F81BD15CCB00508389 /* TGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGViewController.h; path = Classes/TGViewController.h; sourceTree = "<group>"; };
+		BE0494F91BD15CCB00508389 /* TGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TGViewController.m; path = Classes/TGViewController.m; sourceTree = "<group>"; };
+		BE0494FB1BD1644500508389 /* GHIssueMantle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GHIssueMantle.h; path = "Classes/Github Issue Mantle/Model/GHIssueMantle.h"; sourceTree = "<group>"; };
+		BE0494FC1BD1644500508389 /* GHIssueMantle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GHIssueMantle.m; path = "Classes/Github Issue Mantle/Model/GHIssueMantle.m"; sourceTree = "<group>"; };
+		BE0495381BD168BD00508389 /* MantleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MantleViewController.h; path = "Classes/Github Issue Mantle/Controller/MantleViewController.h"; sourceTree = "<group>"; };
+		BE0495391BD168BD00508389 /* MantleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MantleViewController.m; path = "Classes/Github Issue Mantle/Controller/MantleViewController.m"; sourceTree = "<group>"; };
+		BE833B361BD55198004E2300 /* GHUserMantle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GHUserMantle.h; path = "Classes/Github Issue Mantle/Model/GHUserMantle.h"; sourceTree = "<group>"; };
+		BE833B371BD55198004E2300 /* GHUserMantle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GHUserMantle.m; path = "Classes/Github Issue Mantle/Model/GHUserMantle.m"; sourceTree = "<group>"; };
+		BEC284271BCACB6900F54031 /* MantleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MantleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC2842B1BCACB6900F54031 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEC2842D1BCACB6900F54031 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEC2842E1BCACB6900F54031 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEC284361BCACB6900F54031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEC284391BCACB6900F54031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEC2843B1BCACB6A00F54031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BECC327E1BCFFFA5008C915D /* GHUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GHUser.h; path = "Classes/Github Issue/Model/GHUser.h"; sourceTree = "<group>"; };
+		BECC327F1BCFFFA5008C915D /* GHUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GHUser.m; path = "Classes/Github Issue/Model/GHUser.m"; sourceTree = "<group>"; };
+		BEDCBF191BCAD9EF00AEC88A /* GHIssue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GHIssue.h; path = "Classes/Github Issue/Model/GHIssue.h"; sourceTree = "<group>"; };
+		BEDCBF1A1BCAD9EF00AEC88A /* GHIssue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GHIssue.m; path = "Classes/Github Issue/Model/GHIssue.m"; sourceTree = "<group>"; };
+		BEDCBF1C1BCAD9F900AEC88A /* NoMantleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoMantleViewController.h; path = "Classes/Github Issue/Controller/NoMantleViewController.h"; sourceTree = "<group>"; };
+		BEDCBF1D1BCAD9F900AEC88A /* NoMantleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoMantleViewController.m; path = "Classes/Github Issue/Controller/NoMantleViewController.m"; sourceTree = "<group>"; };
+		CA1134E1490CFFC9F7863E42 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEC284241BCACB6900F54031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A845E6E249B9029A8B02DDD8 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F148F27728CDA1A298490D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA1134E1490CFFC9F7863E42 /* Pods.debug.xcconfig */,
+				B34AB8597ECF562ACF6D90B6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5C097B004792CB18842B57B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D37FD73B99EBFB0080E3239 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE0494F51BD15BAB00508389 /* Github Issue(with mantle) */ = {
+			isa = PBXGroup;
+			children = (
+				BE0494F61BD15C9600508389 /* Model */,
+				BE0494F71BD15C9C00508389 /* Controller */,
+			);
+			name = "Github Issue(with mantle)";
+			sourceTree = "<group>";
+		};
+		BE0494F61BD15C9600508389 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE0494FB1BD1644500508389 /* GHIssueMantle.h */,
+				BE0494FC1BD1644500508389 /* GHIssueMantle.m */,
+				BE833B361BD55198004E2300 /* GHUserMantle.h */,
+				BE833B371BD55198004E2300 /* GHUserMantle.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BE0494F71BD15C9C00508389 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE0495381BD168BD00508389 /* MantleViewController.h */,
+				BE0495391BD168BD00508389 /* MantleViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BEC2841E1BCACB6900F54031 = {
+			isa = PBXGroup;
+			children = (
+				BEC284291BCACB6900F54031 /* MantleDemo */,
+				BEC284281BCACB6900F54031 /* Products */,
+				5F148F27728CDA1A298490D2 /* Pods */,
+				A5C097B004792CB18842B57B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BEC284281BCACB6900F54031 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEC284271BCACB6900F54031 /* MantleDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEC284291BCACB6900F54031 /* MantleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BEDCBF111BCAD83A00AEC88A /* Classes */,
+				BEC2842A1BCACB6900F54031 /* Supporting Files */,
+			);
+			path = MantleDemo;
+			sourceTree = "<group>";
+		};
+		BEC2842A1BCACB6900F54031 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEC2842D1BCACB6900F54031 /* AppDelegate.h */,
+				BEC2842E1BCACB6900F54031 /* AppDelegate.m */,
+				BEC284361BCACB6900F54031 /* Assets.xcassets */,
+				BEC284381BCACB6900F54031 /* LaunchScreen.storyboard */,
+				BEC2843B1BCACB6A00F54031 /* Info.plist */,
+				BEC2842B1BCACB6900F54031 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEDCBF111BCAD83A00AEC88A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BE0494F51BD15BAB00508389 /* Github Issue(with mantle) */,
+				BEDCBF131BCAD86F00AEC88A /* Github Issue(no mantle) */,
+				BE0494F81BD15CCB00508389 /* TGViewController.h */,
+				BE0494F91BD15CCB00508389 /* TGViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		BEDCBF131BCAD86F00AEC88A /* Github Issue(no mantle) */ = {
+			isa = PBXGroup;
+			children = (
+				BEDCBF151BCAD89000AEC88A /* Model */,
+				BEDCBF141BCAD88E00AEC88A /* Controller */,
+			);
+			name = "Github Issue(no mantle)";
+			sourceTree = "<group>";
+		};
+		BEDCBF141BCAD88E00AEC88A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BEDCBF1C1BCAD9F900AEC88A /* NoMantleViewController.h */,
+				BEDCBF1D1BCAD9F900AEC88A /* NoMantleViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BEDCBF151BCAD89000AEC88A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEDCBF191BCAD9EF00AEC88A /* GHIssue.h */,
+				BEDCBF1A1BCAD9EF00AEC88A /* GHIssue.m */,
+				BECC327E1BCFFFA5008C915D /* GHUser.h */,
+				BECC327F1BCFFFA5008C915D /* GHUser.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEC284261BCACB6900F54031 /* MantleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC2843E1BCACB6A00F54031 /* Build configuration list for PBXNativeTarget "MantleDemo" */;
+			buildPhases = (
+				DDB17B0B6B2D4FBFEE522A90 /* Check Pods Manifest.lock */,
+				BEC284231BCACB6900F54031 /* Sources */,
+				BEC284241BCACB6900F54031 /* Frameworks */,
+				BEC284251BCACB6900F54031 /* Resources */,
+				75F758CE2D0075FAC7701F2A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MantleDemo;
+			productName = MantleDemo;
+			productReference = BEC284271BCACB6900F54031 /* MantleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEC2841F1BCACB6900F54031 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Terwer Green";
+				TargetAttributes = {
+					BEC284261BCACB6900F54031 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = ZR32MYTPH3;
+					};
+				};
+			};
+			buildConfigurationList = BEC284221BCACB6900F54031 /* Build configuration list for PBXProject "MantleDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEC2841E1BCACB6900F54031;
+			productRefGroup = BEC284281BCACB6900F54031 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEC284261BCACB6900F54031 /* MantleDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEC284251BCACB6900F54031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC2843A1BCACB6900F54031 /* LaunchScreen.storyboard in Resources */,
+				BEC284371BCACB6900F54031 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75F758CE2D0075FAC7701F2A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDB17B0B6B2D4FBFEE522A90 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEC284231BCACB6900F54031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEDCBF1B1BCAD9EF00AEC88A /* GHIssue.m in Sources */,
+				BE04953A1BD168BD00508389 /* MantleViewController.m in Sources */,
+				BEC2842F1BCACB6900F54031 /* AppDelegate.m in Sources */,
+				BE0494FF1BD1644500508389 /* GHIssueMantle.m in Sources */,
+				BEC2842C1BCACB6900F54031 /* main.m in Sources */,
+				BE0494FA1BD15CCB00508389 /* TGViewController.m in Sources */,
+				BEDCBF1E1BCAD9F900AEC88A /* NoMantleViewController.m in Sources */,
+				BE833B381BD55198004E2300 /* GHUserMantle.m in Sources */,
+				BECC32801BCFFFA5008C915D /* GHUser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BEC284381BCACB6900F54031 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEC284391BCACB6900F54031 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEC2843C1BCACB6A00F54031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEC2843D1BCACB6A00F54031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEC2843F1BCACB6A00F54031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA1134E1490CFFC9F7863E42 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MantleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.terwer.MantleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BEC284401BCACB6A00F54031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B34AB8597ECF562ACF6D90B6 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MantleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.terwer.MantleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEC284221BCACB6900F54031 /* Build configuration list for PBXProject "MantleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC2843C1BCACB6A00F54031 /* Debug */,
+				BEC2843D1BCACB6A00F54031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC2843E1BCACB6A00F54031 /* Build configuration list for PBXNativeTarget "MantleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC2843F1BCACB6A00F54031 /* Debug */,
+				BEC284401BCACB6A00F54031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEC2841F1BCACB6900F54031 /* Project object */;
+}
